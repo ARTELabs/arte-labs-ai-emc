@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --ink:#2F4357; --arte-from:#11B6FF; --arte-to:#31D85A; --wave:#34D058; --bg:#F7F7FB; --card:#FFFFFF; --line:#E5E7EB; }
+html, body { height:100% }
+body{ background:var(--bg); color:var(--ink); }
+a{ color:#0b5ed7; }

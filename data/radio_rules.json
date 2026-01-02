@@ -1,0 +1,455 @@
+{
+  "euUkRadioRules": [
+    {
+      "radioType": "ble",
+      "title": "Bluetooth / BLE (2.4 GHz)",
+      "radioStandards": [
+        {
+          "id": "EN 300 328 V2.2.2",
+          "clauses": [
+            "\u00a74.3.1 Output power",
+            "\u00a74.3.2 PSD",
+            "\u00a74.3.3 Occupied bandwidth",
+            "\u00a74.3.4 Spurious emissions"
+          ],
+          "officialUrl": "https://www.etsi.org/standards-search"
+        }
+      ],
+      "emcCommon": {
+        "id": "EN 301 489-1 V2.2.3",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "emcTech": {
+        "id": "EN 301 489-17",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "immunityTests": [
+        {
+          "id": "IEC 61000-4-2 \u00a76 (ESD)",
+          "officialUrl": "https://webstore.iec.ch/"
+        },
+        {
+          "id": "IEC 61000-4-3 \u00a76 (RS)",
+          "officialUrl": "https://webstore.iec.ch/"
+        },
+        {
+          "id": "IEC 61000-4-4 (EFT)",
+          "officialUrl": "https://webstore.iec.ch/"
+        },
+        {
+          "id": "IEC 61000-4-5 (Surge)",
+          "officialUrl": "https://webstore.iec.ch/"
+        },
+        {
+          "id": "IEC 61000-4-6 (CRF)",
+          "officialUrl": "https://webstore.iec.ch/"
+        },
+        {
+          "id": "IEC 61000-4-11 (Dips)",
+          "officialUrl": "https://webstore.iec.ch/"
+        }
+      ],
+      "safety": {
+        "id": "EN/IEC 62368-1",
+        "officialUrl": "https://webstore.iec.ch/en/publication/27412"
+      },
+      "rfExposure": {
+        "id": "EN/IEC 62311",
+        "officialUrl": "https://webstore.iec.ch/en/publication/33985"
+      }
+    },
+    {
+      "radioType": "wifi2g4",
+      "title": "Wi\u2011Fi (2.4 GHz)",
+      "radioStandards": [
+        {
+          "id": "EN 300 328 V2.2.2",
+          "clauses": [
+            "\u00a74.3.1",
+            "\u00a74.3.2",
+            "\u00a74.3.3",
+            "\u00a74.3.4"
+          ],
+          "officialUrl": "https://www.etsi.org/standards-search"
+        }
+      ],
+      "emcCommon": {
+        "id": "EN 301 489-1 V2.2.3",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "emcTech": {
+        "id": "EN 301 489-17",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "immunityTests": [
+        {
+          "id": "IEC 61000-4-2 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-3 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-4"
+        },
+        {
+          "id": "IEC 61000-4-5"
+        },
+        {
+          "id": "IEC 61000-4-6"
+        },
+        {
+          "id": "IEC 61000-4-11"
+        }
+      ],
+      "safety": {
+        "id": "EN/IEC 62368-1"
+      },
+      "rfExposure": {
+        "id": "EN/IEC 62311"
+      }
+    },
+    {
+      "radioType": "wifi5g",
+      "title": "Wi\u2011Fi (5 GHz RLAN)",
+      "radioStandards": [
+        {
+          "id": "EN 301 893 V2.1.1",
+          "clauses": [
+            "\u00a74.2 DFS",
+            "\u00a74.3 Transmit power",
+            "\u00a74.4 Emission limits",
+            "\u00a74.5 Channel access"
+          ],
+          "officialUrl": "https://www.etsi.org/standards-search"
+        }
+      ],
+      "emcCommon": {
+        "id": "EN 301 489-1 V2.2.3",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "emcTech": {
+        "id": "EN 301 489-17",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "immunityTests": [
+        {
+          "id": "IEC 61000-4-2 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-3 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-4"
+        },
+        {
+          "id": "IEC 61000-4-5"
+        },
+        {
+          "id": "IEC 61000-4-6"
+        },
+        {
+          "id": "IEC 61000-4-11"
+        }
+      ],
+      "safety": {
+        "id": "EN/IEC 62368-1"
+      },
+      "rfExposure": {
+        "id": "EN/IEC 62311"
+      }
+    },
+    {
+      "radioType": "gnss",
+      "title": "GNSS Receiver",
+      "radioStandards": [
+        {
+          "id": "EN 303 413 V1.1.1",
+          "clauses": [
+            "\u00a74.2 Receiver performance",
+            "\u00a74.3 Spurious emissions"
+          ],
+          "officialUrl": "https://www.etsi.org/standards-search"
+        }
+      ],
+      "emcCommon": {
+        "id": "EN 301 489-1 V2.2.3",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "emcTech": {
+        "id": "EN 301 489-19",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "immunityTests": [
+        {
+          "id": "IEC 61000-4-2 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-3 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-4"
+        },
+        {
+          "id": "IEC 61000-4-5"
+        },
+        {
+          "id": "IEC 61000-4-6"
+        },
+        {
+          "id": "IEC 61000-4-11"
+        }
+      ],
+      "safety": {
+        "id": "EN/IEC 62368-1"
+      },
+      "rfExposure": {
+        "id": "EN/IEC 62311"
+      }
+    },
+    {
+      "radioType": "lteNr",
+      "title": "Cellular (LTE/NR UE)",
+      "radioStandards": [
+        {
+          "id": "EN 301 908 series",
+          "clauses": [
+            "Select correct part per UE type/bands"
+          ],
+          "officialUrl": "https://www.etsi.org/standards-search"
+        }
+      ],
+      "emcCommon": {
+        "id": "EN 301 489-1 V2.2.3",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "emcTech": {
+        "id": "EN 301 489-52",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "immunityTests": [
+        {
+          "id": "IEC 61000-4-2 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-3 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-4"
+        },
+        {
+          "id": "IEC 61000-4-5"
+        },
+        {
+          "id": "IEC 61000-4-6"
+        },
+        {
+          "id": "IEC 61000-4-11"
+        }
+      ],
+      "safety": {
+        "id": "EN/IEC 62368-1"
+      },
+      "rfExposure": {
+        "id": "EN/IEC 62311"
+      }
+    },
+    {
+      "radioType": "srdSub1g",
+      "title": "SRD (<1 GHz, e.g., 868 MHz)",
+      "radioStandards": [
+        {
+          "id": "EN 300 220 V3.x",
+          "clauses": [
+            "\u00a74.2 Transmit power",
+            "\u00a74.3 Duty cycle/access",
+            "\u00a74.4 Spurious emissions"
+          ],
+          "officialUrl": "https://www.etsi.org/standards-search"
+        }
+      ],
+      "emcCommon": {
+        "id": "EN 301 489-1 V2.2.3",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "emcTech": {
+        "id": "EN 301 489-3",
+        "officialUrl": "https://www.etsi.org/standards-search"
+      },
+      "immunityTests": [
+        {
+          "id": "IEC 61000-4-2 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-3 \u00a76"
+        },
+        {
+          "id": "IEC 61000-4-4"
+        },
+        {
+          "id": "IEC 61000-4-5"
+        },
+        {
+          "id": "IEC 61000-4-6"
+        },
+        {
+          "id": "IEC 61000-4-11"
+        }
+      ],
+      "safety": {
+        "id": "EN/IEC 62368-1"
+      },
+      "rfExposure": {
+        "id": "EN/IEC 62311"
+      }
+    }
+  ],
+  "usRadioRules": [
+    {
+      "radioType": "ble",
+      "title": "Bluetooth / BLE (2.4 GHz)",
+      "fcc": [
+        {
+          "section": "47 CFR \u00a715.247",
+          "officialUrl": "https://www.ecfr.gov/current/title-47/part-15"
+        },
+        {
+          "section": "47 CFR \u00a715.209",
+          "officialUrl": "https://www.ecfr.gov/current/title-47/part-15"
+        }
+      ],
+      "measurement": [
+        "\u00a715.31",
+        "\u00a715.33",
+        "\u00a715.35"
+      ],
+      "labeling": [
+        "\u00a715.19",
+        "\u00a715.21"
+      ],
+      "safety": [
+        "UL/CSA 62368-1"
+      ]
+    },
+    {
+      "radioType": "wifi2g4",
+      "title": "Wi\u2011Fi (2.4 GHz)",
+      "fcc": [
+        {
+          "section": "47 CFR \u00a715.247",
+          "officialUrl": "https://www.ecfr.gov/current/title-47/part-15"
+        },
+        {
+          "section": "47 CFR \u00a715.209",
+          "officialUrl": "https://www.ecfr.gov/current/title-47/part-15"
+        }
+      ],
+      "measurement": [
+        "\u00a715.31",
+        "\u00a715.33",
+        "\u00a715.35"
+      ],
+      "labeling": [
+        "\u00a715.19",
+        "\u00a715.21"
+      ],
+      "safety": [
+        "UL/CSA 62368-1"
+      ]
+    },
+    {
+      "radioType": "wifi5g",
+      "title": "Wi\u2011Fi (5 GHz U\u2011NII)",
+      "fcc": [
+        {
+          "section": "47 CFR \u00a715.407",
+          "officialUrl": "https://www.ecfr.gov/current/title-47/part-15"
+        },
+        {
+          "section": "47 CFR \u00a715.209",
+          "officialUrl": "https://www.ecfr.gov/current/title-47/part-15"
+        }
+      ],
+      "measurement": [
+        "\u00a715.31",
+        "\u00a715.33",
+        "\u00a715.35"
+      ],
+      "labeling": [
+        "\u00a715.19",
+        "\u00a715.21"
+      ],
+      "safety": [
+        "UL/CSA 62368-1"
+      ]
+    },
+    {
+      "radioType": "gnss",
+      "title": "GNSS Receiver",
+      "fcc": [
+        {
+          "section": "47 CFR \u00a715.109",
+          "officialUrl": "https://www.ecfr.gov/current/title-47/part-15"
+        }
+      ],
+      "measurement": [
+        "\u00a715.31",
+        "\u00a715.33",
+        "\u00a715.35"
+      ],
+      "labeling": [
+        "\u00a715.19",
+        "\u00a715.21"
+      ],
+      "safety": [
+        "UL/CSA 62368-1"
+      ]
+    },
+    {
+      "radioType": "lteNr",
+      "title": "Cellular (LTE/NR UE)",
+      "fcc": [
+        {
+          "section": "Licensed service rules; Part 15 applies only to auxiliary functions"
+        }
+      ],
+      "measurement": [
+        "\u00a715.31",
+        "\u00a715.33",
+        "\u00a715.35"
+      ],
+      "labeling": [
+        "\u00a715.19",
+        "\u00a715.21"
+      ],
+      "safety": [
+        "UL/CSA 62368-1"
+      ]
+    },
+    {
+      "radioType": "srdSub1g",
+      "title": "SRD (<1 GHz)",
+      "fcc": [
+        {
+          "section": "47 CFR \u00a715.249",
+          "officialUrl": "https://www.ecfr.gov/current/title-47/part-15"
+        },
+        {
+          "section": "47 CFR \u00a715.231 (case dependent)",
+          "officialUrl": "https://www.ecfr.gov/current/title-47/part-15"
+        }
+      ],
+      "measurement": [
+        "\u00a715.31",
+        "\u00a715.33",
+        "\u00a715.35"
+      ],
+      "labeling": [
+        "\u00a715.19",
+        "\u00a715.21"
+      ],
+      "safety": [
+        "UL/CSA 62368-1"
+      ]
+    }
+  ]
+}

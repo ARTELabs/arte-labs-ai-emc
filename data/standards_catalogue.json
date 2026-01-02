@@ -1,0 +1,61 @@
+[
+  {
+    "id": "EN_IEC_62368_1",
+    "title": "Audio/video, information and communication technology equipment \u2013 Part 1: Safety requirements",
+    "category": [
+      "Safety"
+    ],
+    "jurisdiction": [
+      "EU",
+      "UK",
+      "US",
+      "CA",
+      "Global"
+    ],
+    "scope": "HBSE product safety for AV/ICT equipment \u2264 600 V; energy source classification and safeguards.",
+    "editions": [
+      {
+        "label": "IEC 62368-1:2018 (Ed. 3.0)",
+        "year": 2018,
+        "officialUrl": "https://webstore.iec.ch/en/publication/27412"
+      },
+      {
+        "label": "IEC 62368-1:2023 (Ed. 4.0)",
+        "year": 2023,
+        "officialUrl": "https://webstore.iec.ch/en/publication/69308"
+      }
+    ],
+    "notes": [
+      "EU/EN harmonization timelines vary; show OJEU status in UI banner.",
+      "UL/CSA 62368-1 is used for NRTL certification in North America."
+    ]
+  },
+  {
+    "id": "EN_IEC_62311",
+    "title": "Assessment of EEE related to human exposure restrictions for electromagnetic fields (0 Hz\u2013300 GHz)",
+    "category": [
+      "RFExposure"
+    ],
+    "jurisdiction": [
+      "EU",
+      "UK",
+      "Global"
+    ],
+    "scope": "Generic EMF assessment for intentional/unintentional radiators where no product-family EMF standard applies.",
+    "editions": [
+      {
+        "label": "IEC 62311:2019 (Ed. 2.0)",
+        "year": 2019,
+        "officialUrl": "https://webstore.iec.ch/en/publication/33985"
+      },
+      {
+        "label": "EN IEC 62311:2020",
+        "year": 2020,
+        "officialUrl": "https://img.antpedia.com/standard/files/pdfs_ora/20211002/EN%20IEC%2062311-2020.pdf"
+      }
+    ],
+    "notes": [
+      "Provides exposure summation regimes and uncertainty treatment."
+    ]
+  }
+]
