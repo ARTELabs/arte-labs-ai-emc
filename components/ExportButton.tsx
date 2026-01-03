@@ -12,7 +12,7 @@ export default function ExportButton({ payload }:{ payload:any }) {
     const doc = new Document({
       sections: [{
         properties: {},
-        headers: { default: { children: [ new Paragraph({ alignment: AlignmentType.LEFT, children: [ Media.addImage(doc, Buffer.from(logo), 140, 28) ] }) ] } },
+        headers: { default: { children: [ new Paragraph({ alignment: AlignmentType.LEFT, children: [ Media.addImage(doc, new Uint8Array(logo), 140, 28) ] }) ] } },
         children: [
           new Paragraph({ text: "Consumer Radio Compliance Report", heading: HeadingLevel.TITLE }),
           new Paragraph({ text: `Market: ${payload.market} • Radio: ${payload.radio}` }),
